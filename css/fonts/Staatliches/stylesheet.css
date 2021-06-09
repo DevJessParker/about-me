@@ -4,11 +4,10 @@
 
 @font-face {
     font-family: 'staatlichesregular';
-    src: url('https://devjessparker.github.io/about-me/css/fonts/staatlichesregular.eot');
-    src: url('https://devjessparker.github.io/about-me/css/fonts/staatlichesregular.woff2');
-    src: url('https://devjessparker.github.io/about-me/css/fonts/staatlichesregular.woff');
-    src: url('https://devjessparker.github.io/about-me/css/fonts/staatlichesregular.ttf');
+    src: url('https://devjessparker.github.io/about-me/css/fonts/Staatliches/staatliches-regular.eot');
+    src: url('https://devjessparker.github.io/about-me/css/fonts/Staatliches/staatliches-regular.woff2');
+    src: url('https://devjessparker.github.io/about-me/css/fonts/Staatliches/staatliches-regular.woff');
+    src: url('https://devjessparker.github.io/about-me/css/fonts/Staatliches/staatliches-regular.ttf');
     font-weight: normal;
     font-style: normal;
-
-}
+  }
