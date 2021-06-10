@@ -137,7 +137,7 @@ for (let guessnum= 0;  guessnum < 4; guessnum++){
   } else if (userguess > correctanswer && guessnum < 3) {
     alert('Too high! Try again.');
   } 
-  if (totalguess > 1 && totalguess < 3) {
+  if (totalguess == 2) {
     alert('Last chance!');
   }
   if (totalguess == 1) {
