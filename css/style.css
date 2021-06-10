@@ -42,6 +42,11 @@ header {
 	font-family: 'staatlichesregular';
 	src: url('https://devjessparker.github.io/about-me/font/staatliches-regular-webfont.woff2') format('woff2'),
 			 url('https://devjessparker.github.io/about-me/font/staatliches-regular-webfont.woff') format('woff');
+			 /* url('https://devjessparker.github.io/about-me/font/staatliches-regular-webfont.ttf') format('ttf'); */
+
+			 
+
+
 	font-weight: normal;
 	font-style: normal;
 
