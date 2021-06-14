@@ -6,74 +6,78 @@
       <title>About Jess Parker</title>
     </head>
     <body>
-      <header class="container_16">
-        <h1>ABOUT JESS PARKER</h1>
+      <header id="swatchbar">
+        <div id="s1" class="paintbox" style="background-color: red;" ></div>
+        <div id="s2" class="paintbox" style="background-color: orange;"></div>
+        <div id="s3" class="paintbox" style="background-color:greenyellow;"></div>
+        <div id="s4" class="paintbox" style="background-color:blue;"></div>
+        <div id="s5" class="paintbox" style="background-color:blueviolet;"></div>
       </header>
-      <main>
-        <div class="grid_3">
-          <img id="profileimg" src="/img/Profile.jpg" alt="profile image">
+        <div id='namebox'>
+          <h1>ABOUT JESS PARKER</h1>
         </div>
-        <div id="bio">
-          <h2>Biography</h1>
-          <p>Placeholder bio text here.</p>
-          </div>
-
-        <div id="education">
+        <div id="buttonblock">
+          <button id='colorbutton' onclick="shuffleColor3()">Shuffle Colors</button>
+        </div>
+      <main>
+        <div class="polaroid">
+          <img id="profileimg" src="/img/Profile.jpg" alt="profile image">
+          <h2 id="polaroidtxt">Name: Jessica Parker</h2>
+          <h2 id="polaroidtxt">Age: 34</h2>
+        </div>
+      <section id="biography">
+        <div>
+          <h2>BIOGRAPHY</h2>
+          <p>I am a software development student at CodeFellows currently pursing a change of career from the art field to a more technical vocation.</p>
+          <p>Love colors and graphic design like me? Click the button to create your own color palette! (Please do. I worked for over a day to figure out how a button works AND I coded my own function from scratch!</p>
+        </div>
+      </section>
+      <section id="infoblocks">
+        <article>
           <h2>Educational Background</h2>
           <ul>
             <li>Middle Tennessee State University</li>
+            <li>CodeFellows</li>
           </ul>
-        </div>
-        
-        <div id="workexp">
+          </article>
+          <article>
           <h2>Work Experience</h2>
           <ul>
             <li>Parker Book Design</li>
             <li>American Red Cross</li>
             <li>Subiaco Academy</li>
-          </ul>
-        </div>
-        
-        <div id="goals">
-          <h2>Professional Development Goals</h2>
-          <p>Goals go here.</p>
-        </div>
-
-        <div id="favebooks">
-          <h2>My Favorite Books</h1>
-          <ol>
-              <li>Book 1</li>
-              <li>Book 2</li>
-              <li>Book 3</li>
-              <li>Book 4</li>
-              <li>Book 5</li>
-              <li>Book 6</li>
-              <li>Book 7</li>
-              <li>Book 8</li>
-              <li>Book 9</li>
-              <li>Book 10</li>
-          </ul>
-        </div>
-        
-        <div>
-          <ul class='circles'>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
          </ul>
+        </article>
+        <article id="goals">
+          <h2>Professional Development Goals</h2>
+          <ul>
+            <li>Gain technical skills.</li>
+            <li>Continue educational growth beyond CodeFellows.</li>
+            <li>Perfect my technical interview.</li>
+          </ul>
+        </article>
+      </section>
+      <div id="bookbox">
+        <h2 id="booktitle">My Favorite Books</h2>
+        <div id="bookgrid">
+          <ol>
+            <img src="https://m.media-amazon.com/images/I/51jPwHD6EjL._SY346_.jpg" alt="Serpent and Dove cover">
+            <img src="https://m.media-amazon.com/images/I/51O-rvZjzKL.jpg" alt="Cruel Prince cover">
+            <img src="https://m.media-amazon.com/images/I/51HKHEvyxBL.jpg" alt="Atlas Fallen cover">
+            <img src="https://m.media-amazon.com/images/I/51X-uVznafL.jpg" alt="Six of Crows cover">
+            <img src="https://m.media-amazon.com/images/I/51lFCv0nziL._SY346_.jpg" alt="Aurora Rising cover">
+            <img src="https://m.media-amazon.com/images/I/517MCKjJz+L._SY346_.jpg" alt="And I Darken cover">
+            <img src="https://m.media-amazon.com/images/I/51UR2wI7R7L._SY346_.jpg" alt="Namesake cover">
+            <img src="https://m.media-amazon.com/images/I/51DLlJLUGXL._SY346_.jpg" alt="Incendiary cover">
+            <img src="https://m.media-amazon.com/images/I/51VQeURV1IS.jpg" alt="Fly with the Arrow cover">
+            <img src="https://m.media-amazon.com/images/I/51NKQD10W2L.jpg" alt="The Shadows Between Us cover">
+          </ol>
         </div>
-
+      </div>
       </main>
       <footer>
         <p>&copy; Dev 13 Studios</p>
       </footer>
-      <!-- <script src="js/app.js"></script> -->
+      <script src="js/app.js"></script>
     </body>
   </html>
